@@ -94,16 +94,18 @@
 
 	</dependencies>
 	
+
+	
 	<distributionManagement>
     <repository>
         <id>central</id>
-        <name>CICD-releases</name>
-        <url>http://${artifact_url}:8081/artifactory/CICD_maven_app</url>
+        <name>WipDev-releases</name>
+        <url>http://${artifact_url}:8081/artifactory/helloworld</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>CICD-snapshots</name>
-        <url>http://${artifact_url}:8081/artifactory/CICD_maven_app</url>
+        <name>WipDev-snapshots</name>
+        <url>http://${artifact_url}:8081/artifactory/helloworld</url>
     </snapshotRepository>
 </distributionManagement>
 	
